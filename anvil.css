@@ -1,18 +1,14 @@
-/* Custom styles for Anvil's signature frame */
-
-/* Style for the "Sign All" button */
-#signature-all-btn {
-    background-color: white !important; /* Change background to white */
-    color: blue !important; /* Change text color to blue */
-    padding: 10px !important; /* Add padding */
-    border: 2px solid blue !important; /* Set border color to blue */
-    border-radius: 5px !important; /* Round the corners */
-    font-size: 16px !important; /* Adjust font size */
+/* Customize the button */
+.anvil-signature-accept-sign-all-button {
+    background-color: #007bff !important;  /* Custom background */
+    color: white !important;               /* Custom text color */
+    border-radius: 4px !important;         /* Rounded corners */
+    padding: 10px 20px !important;         /* Custom padding */
 }
 
-/* Style for the checkbox */
+/* Customize the checkbox input */
 .ant-checkbox-input {
-    width: 20px !important; /* Adjust the checkbox size */
-    height: 20px !important;
-    border: 2px solid black !important; /* Change the checkbox border to black */
+    width: 20px !important;                /* Custom width */
+    height: 20px !important;               /* Custom height */
+    border: 2px solid #007bff !important;  /* Custom border color */
 }
